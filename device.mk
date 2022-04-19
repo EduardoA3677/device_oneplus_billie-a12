@@ -45,6 +45,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
+# tri-state-key
+PRODUCT_PACKAGES += \
+    KeyHandler \
+    tri-state-key_key-calibrate
+
 # AOSP Recovery
 TARGET_USES_AOSP_RECOVERY := true
 
