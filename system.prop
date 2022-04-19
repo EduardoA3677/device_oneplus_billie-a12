@@ -2,6 +2,8 @@
 # system.prop for billie
 #
 
+ro.apk_verity.mode=2
+
 rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 #rild.libargs=-d /dev/smd0
 persist.rild.nitz_plmn=
