@@ -24,8 +24,6 @@ BOARD_VENDOR := oneplus
 
 DEVICE_PATH := device/oneplus/billie
 
-TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
-
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a
