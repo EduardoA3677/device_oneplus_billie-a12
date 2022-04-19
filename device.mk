@@ -167,6 +167,10 @@ PRODUCT_PACKAGES += \
     NfcNci \
     Tag
 
+# OnePlus
+PRODUCT_PACKAGES += \
+    oneplus-fwk
+
 # Ramdisk
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.default:$(TARGET_COPY_OUT_RAMDISK)/fstab.default \
