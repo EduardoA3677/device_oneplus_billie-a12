@@ -50,6 +50,7 @@ TARGET_USE_QTI_BT_STACK := true
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 
 # Display
 TARGET_SCREEN_DENSITY := 420
