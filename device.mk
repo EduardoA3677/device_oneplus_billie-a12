@@ -50,6 +50,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 30
+PRODUCT_EXTRA_VNDK_VERSIONS := 30
 
 ifeq ($(TARGET_BUILD_VARIANT),eng)
 # /vendor/default.prop is force-setting ro.adb.secure=1
