@@ -12,6 +12,11 @@
     "remote": "github"
   },
   {
+    "repository"  : "device_oneplus_extras",
+    "target_path" : "device/oneplus/extras",
+    "branch"      : "twelve"
+  },
+  {
     "repository": "kronflux/packages_apps_onepluscamera",
     "target_path": "packages/apps/OnePlusCamera",
     "branch": "eleven",
