@@ -1,2 +1,5 @@
 # NFC
 persist.nfc.config_file_name    u:object_r:persist_nfc_prop:s0
+
+# Hardware
+ro.hardware.chipname            u:object_r:exported_default_prop:s0
