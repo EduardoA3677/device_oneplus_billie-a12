@@ -4,3 +4,8 @@ ro.config.vc_call_vol_steps=7
 
 # FUSE passthrough
 persist.sys.fuse.passthrough.enable=true
+
+# Enable blurs, hidden under dev option
+ro.surface_flinger.supports_background_blur=1
+persist.sys.sf.disable_blurs=1
+ro.sf.blurs_are_expensive=1
